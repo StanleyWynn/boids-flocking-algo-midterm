@@ -47,7 +47,7 @@ Each boid follows three simple local rules:
 - Pygame
 
 ### Notes / Future improvements
-- - **Algorithmic Complexity ($O(N^2)$)**: In the current implementation, every boid checks distance against every other boid each frame. With 300 agents, this takes $\approx 90,000$ distance checks per frame, which runs smoothly on modern CPUs but bounds further scaling.
+-  **Algorithmic Complexity ($O(N^2)$)**: In the current implementation, every boid checks distance against every other boid each frame. With 300 agents, this takes $\approx 90,000$ distance checks per frame, which runs smoothly on modern CPUs but bounds further scaling.
 - **Tuning Sensitivity**: The balance between cohesion and separation is delicate; high separation weights cause jitter, while high cohesion causes unnatural collapse into tight points.
 
 ### Future Improvements
